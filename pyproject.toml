@@ -1,0 +1,25 @@
+[project]
+name = "pythonproject3"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "1278770517",email = "wcr20020810w@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=3.4.7",
+    "langchain-mcp-adapters>=0.3.2",
+    "requests>=2.34.2",
+]
+
+
+[[index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
